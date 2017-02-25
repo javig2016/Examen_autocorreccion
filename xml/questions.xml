@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="questions.xsd">
+	<question id="preg001">
+		<type>text</type>
+		<title>1. ¿A qué compañía pertenece el procesador Xeon E7?</title>
+		<answer>Intel</answer>
+	</question>
+	<question id="preg002">
+		<type>radio</type>
+		<title>2. ¿Virtualbox es un programa de realidad virtual?</title>
+		<option>a) Verdadero</option>
+		<option>b) Falso</option>
+		<answer>1</answer>
+	</question>
+	<question id="preg003">
+		<type>text</type>
+		<title>3. ¿Indica el nombre del antivirus que lleva instalado Windows 10 por defecto?</title>
+		<answer>Defender</answer>
+	</question>
+	<question id="preg004">
+		<type>select</type>
+		<title>4. ¿Es aconsejable realizar copias de seguridad de tu equipo?</title>
+		<option>a) A veces, cuando te acuerdas</option>
+		<option>b) Sí, siempre que se pueda</option>
+		<option>c) No es necesario, a mi no me pasará nada, yo controlo todo</option>
+		<answer>1</answer>
+	</question>
+	<question id="preg005">
+		<type>radio</type>
+		<title>6. ¿Cuál de las siguientes opciones es una fuente de interferencia en un cable UTP?</title>
+		<option>a) Cable de fibra óptica</option>
+		<option>b) Cable coaxial</option>
+		<option>c) Hub</option>
+		<option>d) Cable eléctrico</option>
+		<answer>3</answer>
+	</question>
+	<question id="preg006">
+		<type>select</type>
+		<title>7. ¿Cómo se denomina el ordenador en el cual se encuentran las páginas web?</title>
+		<option>a) Ordenador web</option>
+		<option>b) Servidor</option>
+		<option>c) Administrador</option>
+		<answer>1</answer>
+	</question>
+	<question id="preg007">
+		<type>checkbox</type>
+		<title>8. Selecciona los elementos que te puedes encontrar en una red:</title>
+		<option>a) Hub</option>
+		<option>b) Router</option>
+		<option>c) Switch</option>
+		<option>d) Ninguno de los anteriores</option>
+		<answer>0</answer>
+		<answer>1</answer>
+		<answer>2</answer>
+	</question>
+	<question id="preg008">
+		<type>multiple</type>
+		<title>9. Cuando se elimina un documento... (marca la opción u opciones correctas)</title>
+		<option>a) Ya es imposible recuperarlo</option>
+		<option>b) Se puede recuperar desde la papelera de reciclaje</option>
+		<option>c) Permanece en la papelera de reciclaje hasta que se vacía</option>
+		<option>c) Todas las opciones son incorrectas</option>
+		<answer>1</answer>
+		<answer>2</answer>
+	</question>
+	<question id="preg009">
+		<type>checkbox</type>
+		<title>10. En Impress podemos exportar nuestra presentación en los siguientes formatos, marque los correctos:</title>
+		<option>a) RAR</option>
+		<option>b) PDF</option>
+		<option>c) XLS</option>
+		<option>d) SWF</option>
+		<answer>1</answer>
+		<answer>4</answer>
+	</question>
+	<question id="preg010">
+		<type>multiple</type>
+		<title>5. Marca las frases erróneas</title>
+		<option>a) Los discos duros giran a 7.500 MHz</option>
+		<option>b) Un disco duro puede tener  5.400 RPM</option>
+		<option>c) Un disco duro de un servidor puede ser de 15.000 RPM</option>
+		<option>d) No existen los discos duros de 15.000 RPM</option>
+		<answer>0</answer>
+		<answer>3</answer>
+	</question>
+</questions>
