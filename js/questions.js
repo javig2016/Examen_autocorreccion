@@ -17,6 +17,18 @@ window.onload = function(){
 
  //Se carga el formulario
  formElement=document.getElementById("examen");
+
+ //LEER XML de xml/preguntas.xml
+ var xhttp = new XMLHttpRequest();
+ xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+   gestionarXml(this);
+  }
+ };
+ xhttp.open("GET", "xml/questions.xml", true);
+ xhttp.send();
+
+ //Corrección
  formElement.onsubmit=function(){
     inicializar();
     corregirNumber();
@@ -40,16 +52,6 @@ window.onload = function(){
     presentarNota();   
     return false;
  }
- 
- //LEER XML de xml/preguntas.xml
- var xhttp = new XMLHttpRequest();
- xhttp.onreadystatechange = function() {
-  if (this.readyState == 4 && this.status == 200) {
-   gestionarXml(this);
-  }
- };
- xhttp.open("GET", "xml/questions.xml", true);
- xhttp.send();
 }
 
 //****************************************************************************************************
