@@ -1,0 +1,96 @@
+﻿body,html{height:100%;padding:0px;margin:0px;}
+.a0{background:white;width:100%;height:150px;overflow:hidden;position:fixed;top:0px}
+.b0{background:white;width:100%;height:100%;overflow:hidden;}
+.c0{background:white;position:fixed;top:0px;bottom:0px;left:0px;right:0px;display:none;z-index:1}
+.d0{background:white;position:fixed;bottom:0px;height:10%;width:100%;}
+
+#cpanel{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color:red;
+}
+
+#hidem,#showm{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: forestgreen;
+	float:right
+}
+
+
+#menu{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: black;
+}
+
+#titulo1 {
+  color: black;
+  text-align: center;
+}
+
+h1 {
+	color: forestgreen;
+	text-align: center;
+}
+
+h5 {
+  color: black;
+  text-align: center;
+}
+
+p {
+	color: black;
+  text-align: justify;
+  font-size: 30px;
+}
+
+a:link{
+	text-decoration:none;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: forestgreen;
+}
+
+#textcp{
+	font-size:25px;
+	text-align: left;
+}
+
+/*configuración menu juego horizontal*/
+.paramenu {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+
+header {
+  width: 100%;
+  z-index: 10;
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+nav ul li a {
+  display: block; 
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: green;
+}

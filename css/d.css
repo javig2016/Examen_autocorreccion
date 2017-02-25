@@ -1,0 +1,125 @@
+﻿body,html {background:orange;height:100%;padding:0px;margin:0px;}
+
+.b0 {background:orange;width:100%; height:100%; padding: 0px;}
+.d0 {background:green;width:100%;height:5%;position:fixed;bottom:0px;}
+
+#cpanel {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: red;
+}
+
+#hidem,#showm {display:none}
+
+#paramenu {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: black;
+}
+
+#logo {
+  display: block;
+  position: absolute;
+  float: left;
+  margin: 1% 0 0 15%;
+}
+
+
+#titulo1 {
+  display: block;
+  position: static;
+  color: black;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+}
+
+.caja1 {
+  background: grey;
+  width: 80%;
+  height: 100%;
+  margin:auto;
+  color: black;
+  font-size: 20px;
+  text-align: justify;
+}
+
+#rectorado {
+  width: 60%;
+  height: 60%;
+  margin:auto;
+  display:block;
+}
+
+#enlace {
+  display: block;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: black;
+  border-style: dashed;
+  margin: 0% 5% 20% 10%;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+}
+
+h5 {
+  color: black;
+  text-align: center;
+}
+
+a:link{
+	text-decoration: none;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: black;
+  text-align: center;
+}
+
+
+/*configuración menu juego horizontal pantalla inicial*/
+.paramenu {
+  width: 40%;
+  margin: auto;
+  overflow:hidden;
+  display: block;
+}
+
+header {
+  width: 100%;
+  z-index: 10;
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+nav ul li a {
+  display: block; 
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: green;
+}
