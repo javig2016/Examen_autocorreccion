@@ -31,8 +31,6 @@ window.onload = function(){
  //Corrección
  formElement.onsubmit=function(){
     inicializar();
-    corregirNumber();
-    corregirCheckbox();
     //Corregir pregunta 1
     corregirTexto(formElement.getElementsByClassName("texto")[0].value,
     answer1_txt, "Pregunta1: Correcta", 
@@ -49,6 +47,7 @@ window.onload = function(){
     corregirSelectSimple(formElement.getElementsByTagName("select")[0], 
     answer6_sel, "Pregunta6: Correcta", 
     "Pregunta6: Incorrecta, la respuesta correcta es: ");
+    corregirCheckbox();
     presentarNota();   
     return false;
  }
