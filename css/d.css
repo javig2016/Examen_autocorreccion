@@ -54,11 +54,21 @@
 #enlace {
   display: block;
   text-decoration: none;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
   color: black;
-  border-style: dashed;
-  margin: 0% 5% 20% 10%;
+  margin: 0% 5% 20% 40%;
+}
+
+#mensaje_examen {
+  display: block;
+  margin: 0% 0% 5% 33%;
+  font-size: 20px;
+}
+
+
+legend{
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
 }
 
 h1 {
@@ -88,7 +98,7 @@ a:link{
 /*configuración menu juego horizontal pantalla inicial*/
 .paramenu {
   width: 40%;
-  margin: auto;
+  margin: 1% 0 0 35%;
   overflow:hidden;
   display: block;
 }
