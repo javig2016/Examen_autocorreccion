@@ -35,7 +35,7 @@ Imagen logo universidad:
 [Imagen logo](http://res.freestockphotos.biz/pictures/16/16246-illustration-of-a-graduation-cap-pv.png)
 
 Imagen rectorado:
-[Imagen rectoradol](https://s.iha.com/2556200015384/Alquiler-vacaciones-encanto-Campos-SEGLES_15.jpegg)
+[Imagen rectorado](https://s.iha.com/2556200015384/Alquiler-vacaciones-encanto-Campos-SEGLES_15.jpegg)
 
 
 Se han retocado las imágenes con la herramienta de dibujo [GIMP](https://www.gimp.org/).
