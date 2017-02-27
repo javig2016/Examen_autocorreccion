@@ -1,15 +1,4 @@
-﻿body,html {background:orange;height:100%;padding:0px;margin:0px;}
-
-.b0 {background:orange;width:100%; height:100%; padding: 0px;}
-.d0 {background:green;width:100%;height:5%;position:fixed;bottom:0px;}
-
-#cpanel {
-	font-family: "Times New Roman", Times, serif;
-	font-size: 16px;
-	color: red;
-}
-
-#hidem,#showm {display:none}
+﻿body,html {background:#F4F4F4;height:100%;padding:0px;margin:0px;}
 
 #paramenu {
 	font-family: "Times New Roman", Times, serif;
@@ -24,7 +13,6 @@
   margin: 1% 0 0 15%;
 }
 
-
 #titulo1 {
   display: block;
   position: static;
@@ -32,16 +20,6 @@
   font-size: 50px;
   color: black;
   text-align: center;
-}
-
-.caja1 {
-  background: grey;
-  width: 80%;
-  height: 100%;
-  margin:auto;
-  color: black;
-  font-size: 20px;
-  text-align: justify;
 }
 
 #rectorado {
@@ -58,17 +36,33 @@
   margin: 0% 5% 20% 40%;
 }
 
+#examen {
+  background: #DCD0C0;
+  width: 80%;
+  height: 100%;
+  margin:auto;
+}
+
 #mensaje_examen {
   display: block;
   margin: 0% 0% 5% 33%;
   font-size: 20px;
 }
 
+.caja1 {
+  background: #DCD0C0;
+  width: 80%;
+  height: 100%;
+  margin:auto;
+  color: black;
+  font-size: 20px;
+  text-align: justify;
+}
 
 legend{
-
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
+  color: #373737;
 }
 
 h1 {
@@ -82,6 +76,8 @@ h2 {
 }
 
 h5 {
+  padding: 10px;
+  background-color: #DCD0C0;
   color: black;
   text-align: center;
 }
@@ -90,12 +86,12 @@ a:link{
 	text-decoration: none;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 18px;
-	color: black;
+	color: #C0B283;
   text-align: center;
 }
 
 
-/*configuración menu juego horizontal pantalla inicial*/
+/*configuración menú horizontal pantalla inicial*/
 .paramenu {
   width: 40%;
   margin: 1% 0 0 35%;
@@ -126,10 +122,10 @@ nav ul li {
 nav ul li a {
   display: block; 
   padding: 20px;
-  color: white;
+  color: #C0B283;
   text-decoration: none;
 }
 
 nav ul li:hover {
-  background: green;
+  background: #373737;
 }
