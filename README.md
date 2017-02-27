@@ -1,6 +1,6 @@
 # Examen_autocorreccion
 
-Desarrollo del proyecto denominado [Examen_autocorreccion](https://github.com/javig2016/Examen_autocorreccion). Este proyecto ha consistido en la elaboración de una web de una universidad inventada, donde se crea un formulario con unas preguntas que luego se han de corregir y dar los resultados de las mismas.
+Desarrollo del proyecto denominado [Examen_autocorreccion](https://github.com/javig2016/Examen_autocorreccion). Este proyecto pertenece a la unidad 3 del módulo LMSGI y ha consistido en la elaboración de una web de una universidad inventada, donde se crea un formulario con unas preguntas que luego se han de corregir y dar los resultados de las mismas.
 Se ha usado una combinación de los temas vistos hasta ahora: HTML, CSS, JavaScript y además se ha añadido XML.
 
 ##Fases del proyecto:
