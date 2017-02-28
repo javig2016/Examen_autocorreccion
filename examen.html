@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es-ES">
 	<head>
 		 <title>Universitat Cas Concos</title>
@@ -13,6 +13,10 @@
 			<a href="index.html"> <img id="logo" src="img/logouniv.png" alt="Logo Universitat Cas Concos"></a>
 			<h1 id="titulo1">Universitat Cas Concos</h1>
 			<h2>Prueba de conocimientos</h2>
+		</div>
+		<div id=instrucciones>
+			<h4> Instrucciones para la prueba</h3>
+			<p> La prueba consiste en responder a las siguientes preguntas, algunas preguntas pueden tener más de una opción correcta, así que deberán marcar todas las que consideren correctas. Las respuestas incorrectas no restan.</p>
 		</div>
 		<div>
 			<form id="examen">
@@ -70,8 +74,8 @@
 
 				<fieldset>
 		 			<legend>Pregunta 8</legend>
-					<h3 id="preg008"></h3><br>
-					<h3>(Has de mantener pulsada la tecla CTRL y eleccionar con el ratón para marcar más de 1 opción</h3><br>
+					<h3 id="preg008"></h3>
+					<h3>(Has de mantener pulsada la tecla CTRL y seleccionar con el ratón para marcar más de 1 opción)</h3><br>
 					<select multiple>
 					</select>
 				</fieldset>
@@ -87,29 +91,28 @@
 				<fieldset>
 		 			<legend>Pregunta 10</legend>
 					<h3 id="preg010"></h3>
-					<h3>(Has de mantener pulsada la tecla CTRL y eleccionar con el ratón para marcar más de 1 opción</h3><br>
+					<h3>(Has de mantener pulsada la tecla CTRL y seleccionar con el ratón para marcar más de 1 opción)</h3><br>
 					<select multiple>
 					</select>
 				</fieldset>
 				<br><br>
-					
 				<input type="submit" value="Corregir">
 				<br><br>
 			</form>	
-			<div id="resultadosDiv"></div>
+			<div id="resultados"></div>
 		</div>
 		
 		<br><br>
-		<p id="mensaje_examen">Si desea volver a la página inicial pule en el botón inferior</p>
-		 	<form id="enlace" action="index.html">
+		<p id="mensaje_examen">Si desea volver a la página inicial pulse en el botón inferior</p>
+			<form id="enlace1" action="index.html">
 	  			<input type=submit value="Página inicio">
 			</form>
 			<h5>©2017 Universitat Cas Concos. Carrer Major, n. 1. Cas Concos des Cavaller. Felanitx. Mallorca (Illes Balears). Tel.: +34 - 971 58 60 00. E-07208. CIF: Q07221435C</h5>
 		<p>
 	    	<a href="http://jigsaw.w3.org/css-validator/check/referer">
-	    	    <img align="right" style="border:0;width:88px;height:31px;"
+	    	    <img id="imgcss" align="right";
 	            src="http://jigsaw.w3.org/css-validator/images/vcss"
-	            alt="¡CSS Válido!" />
+	            alt="¡CSS Válido!"/>
 	    	</a><br>
 		</p>
 	</body>
