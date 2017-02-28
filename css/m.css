@@ -1,4 +1,4 @@
-﻿body,html{background:#F4F4F4;height:100%;padding:0px;margin:0px;}
+body,html{background:#F4F4F4;height:100%;padding:0px;margin:0px;}
 
 #paramenu {
   font-family: "Times New Roman", Times, serif;
@@ -11,13 +11,15 @@
   position: relative;
   float: left;
   margin: 1% 0 0 15%;
+  width:30%;
+  height:30%;
 }
 
 #titulo1 {
   display: block;
   position: static;
   color: black;
-  font-size: 50px;
+  font-size: 25px;
   color: black;
   text-align: center;
 }
@@ -33,20 +35,52 @@
   display: block;
   text-decoration: none;
   color: black;
-  margin: 0% 5% 20% 40%;
+  margin: 0% 5% 20% 20%;
 }
 
+#enlace1 {
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin: 0% 0% 10% 35%;
+}
 #examen {
   background: #DCD0C0;
   width: 80%;
   height: 100%;
-  margin:auto;
+  margin: 15% 20% 0% 10%;
 }
 
 #mensaje_examen {
   display: block;
-  margin: 0% 0% 5% 33%;
+  margin: 0% 30% 5% 30%;
   font-size: 20px;
+}
+
+#resultados {
+  background: #DCD0C0;
+  width: 80%;
+  height: 0%;
+  margin:auto;
+  color: red;
+  font-size: 20px;
+  text-align: justify;
+}
+
+#imgcss{
+  border:0;
+  width:88px;
+  height:31px;
+}
+
+#instrucciones {
+  background: #F4F4F4;
+  width: 80%;
+  height: 15%;
+  margin: 5% 10% 20% 10%;
+  color: black;
+  font-size: 12px;
+  text-align: justify;
 }
 
 .caja1 {
@@ -60,9 +94,8 @@
 }
 
 legend{
-
   font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
+  font-size: 20px;
   color: #373737;
 }
 
@@ -74,6 +107,12 @@ h1 {
 h2 {
   color: black;
   text-align: center;
+  margin: 0% 40% 0% 25%;
+}
+
+h3 {
+  font-size: 12px;
+  text-align: justify;
 }
 
 h5 {
