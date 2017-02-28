@@ -1,4 +1,4 @@
-﻿body,html {background:#F4F4F4;height:100%;padding:0px;margin:0px;}
+body,html {background:#F4F4F4;height:100%;padding:0px;margin:0px;}
 
 #paramenu {
 	font-family: "Times New Roman", Times, serif;
@@ -36,6 +36,13 @@
   margin: 0% 5% 20% 40%;
 }
 
+#enlace1 {
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin: 0% 0% 10% 45%;
+}
+
 #examen {
   background: #DCD0C0;
   width: 80%;
@@ -47,6 +54,32 @@
   display: block;
   margin: 0% 0% 5% 33%;
   font-size: 20px;
+}
+
+#resultados {
+  background: #DCD0C0;
+  width: 80%;
+  height: 0%;
+  margin:auto;
+  color: red;
+  font-size: 20px;
+  text-align: justify;
+}
+
+#imgcss{
+  border:0;
+  width:88px;
+  height:31px;
+}
+
+#instrucciones {
+  background: #DCD0C0;
+  width: 80%;
+  height: 15%;
+  margin: 5% 10% 5% 10%;
+  color: black;
+  font-size: 20px;
+  text-align: justify;
 }
 
 .caja1 {
@@ -94,7 +127,7 @@ a:link{
 /*configuración menú horizontal pantalla inicial*/
 .paramenu {
   width: 40%;
-  margin: 1% 0 0 35%;
+  margin: 1% 0 0 30%;
   overflow:hidden;
   display: block;
 }
