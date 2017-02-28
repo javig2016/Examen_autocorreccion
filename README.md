@@ -12,9 +12,9 @@ Se ha usado una combinación de los temas vistos hasta ahora: HTML, CSS, JavaScr
 5. Se ha realizado el archivo XML y se ha revisado su correcta construcción mediante la correcta validación con DTD. Usando la siguiente web para revisar el documento: http://www.xmlvalidation.com/
 6. Tras esto se ha procedido a realizar la validación mediante otro mecanismo, usando XML schema, es decir se ha vuelto a validar el archivo XML, pero esta vez con XSD, en la misma web anterior.
 7. Tras ver la correcta validación del archivo XML, se ha realizado el documento JavaScript para su implantación y adaptación en la página web. Realizando también los enlaces con el archivo XML y HTML.
-8. Revisar el correcto funcionamiento de las funciones indicadas en JavaScript.
-9. Probar la web en diferentes resoluciones y diferentes navegadores, para probar la visualización en distintos dispositivos.
-10. Revisar que todas las páginas html y los archivos de diseño css están correctamente creados y no contienen errores, mediante las herramientas de validación de W3C.
+8. Se ha revisado el correcto funcionamiento de las funciones indicadas en JavaScript.
+9. Se ha probado la web en diferentes resoluciones y diferentes navegadores, para probar la visualización en distintos dispositivos.
+10. Revisión de que todas las páginas html y los archivos de diseño css están correctamente creados y no contienen errores, mediante las herramientas de validación de W3C.
 
 A continuación se pasan a indicar características especiales a reseñar de la práctica:
 ### * Imágenes adaptadas:
